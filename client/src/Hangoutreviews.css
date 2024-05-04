@@ -1,0 +1,21 @@
+/* Hangoutreviews.css */
+
+.hangout-reviews-container {
+    margin: 20px;
+  }
+  
+  .review-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review-item h3 {
+    margin-top: 0;
+  }
+  
+  .review-item p {
+    margin: 5px 0;
+  }
+  

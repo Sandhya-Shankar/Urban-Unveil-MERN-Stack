@@ -1,0 +1,12 @@
+/* createfood.css */
+
+/* Apply the style only to Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Chrome specific CSS */
+    /* Override the problematic property */
+    input {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%; /* Fallback for modern browsers */
+    }
+  }
+  
