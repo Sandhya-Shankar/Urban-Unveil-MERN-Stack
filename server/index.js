@@ -13,7 +13,7 @@ app.use(cors())
 app.use(express.json())
 
 // localdatabase connecting
-mongoose.connect('mongodb://localhost:27017/CRUD', {
+mongoose.connect('mongodb+srv://sandhyashankar:Guruji_1961@cluster0.lazglkl.mongodb.net/CRUD?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
@@ -23,6 +23,7 @@ mongoose.connect('mongodb://localhost:27017/CRUD', {
 .catch(err => {
   console.error('Error connecting to MongoDB:', err);
 });
+
 
 
 app.get("/getRest", (req,res) => {
